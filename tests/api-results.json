@@ -1,0 +1,52 @@
+{
+  "synthetic": true,
+  "base": "http://127.0.0.1:5178",
+  "at": "2026-10-02T05:20:38.406Z",
+  "results": [
+    {
+      "id": "plan-fields-and-original-history",
+      "status": "PASS"
+    },
+    {
+      "id": "task-crud-and-fields",
+      "status": "PASS"
+    },
+    {
+      "id": "completion-double-submit-concurrent",
+      "status": "PASS"
+    },
+    {
+      "id": "reopen-and-old-request-replay",
+      "status": "PASS"
+    },
+    {
+      "id": "execution-time-blocker-and-plan-preservation",
+      "status": "PASS"
+    },
+    {
+      "id": "delete-excludes-with-history-retained",
+      "status": "PASS"
+    },
+    {
+      "id": "review-to-next-plan",
+      "status": "PASS"
+    },
+    {
+      "id": "invalid-input-keeps-data-and-version-conflicts",
+      "status": "PASS"
+    },
+    {
+      "id": "reload-full-record-identity",
+      "status": "PASS"
+    }
+  ],
+  "planId": "b3c821ba-20c5-436f-9c52-316fc35be736",
+  "taskIds": [
+    "1192fff6-0e0e-4098-b7df-947a3d386ddc",
+    "a8420932-ca13-49a6-ae7f-e794541f7023",
+    "d0baa556-c759-4ede-8c58-dbf0100e8fe9",
+    "059e4fb4-11f2-4ae2-a6b2-364696d25ffa",
+    "e6458ad6-4f06-43e0-b2d0-1328611b8586",
+    "7eb46ea0-c588-4c8d-955a-c8eba24af064"
+  ]
+}
