@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="2360" viewBox="0 0 3200 2360"><defs><pattern id="voidhatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="14" height="14" fill="#f6eee9"/><line x1="0" y1="0" x2="0" y2="14" stroke="#c9a9a0" stroke-width="3"/></pattern><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#91693f"/></marker></defs><g transform="translate(0,0)">
+<defs><pattern id="voidhatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="14" height="14" fill="#f6eee9"/><line x1="0" y1="0" x2="0" y2="14" stroke="#c9a9a0" stroke-width="3"/></pattern><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#91693f"/></marker></defs>
+<rect x="0.0" y="0.0" width="1600.0" height="1180.0" rx="0" fill="#f5f2eb" stroke="#f5f2eb" stroke-width="0" />
+<text x="65.0" y="68.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="39" font-weight="700" fill="#302b26">지하층</text>
+<text x="66.0" y="105.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="20" font-weight="500" fill="#756a5e">유물 보관 · 복원 · 설비</text>
+<text x="610.0" y="145.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="600" fill="#756a5e">N  ↑  ·  후면 / 북쪽</text>
+<rect x="110.0" y="550.0" width="1000.0" height="125.0" rx="7" fill="#f1eadb" stroke="#493f35" stroke-width="3" />
+<text x="610.0" y="617.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="21" font-weight="700" fill="#302b26">연결 통로</text>
+<rect x="110.0" y="175.0" width="175.0" height="375.0" rx="3" fill="#dddcd6" stroke="#493f35" stroke-width="3" />
+<text x="197.5" y="367.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">진입 계단실</text>
+<text x="197.5" y="387.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">7 × 15 m</text>
+<rect x="285.0" y="175.0" width="500.0" height="375.0" rx="3" fill="#dce5df" stroke="#493f35" stroke-width="3" />
+<text x="535.0" y="367.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">고고학 작업실</text>
+<text x="535.0" y="387.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">20 × 15 m</text>
+<rect x="785.0" y="175.0" width="325.0" height="375.0" rx="3" fill="#dddcd6" stroke="#493f35" stroke-width="3" />
+<text x="947.5" y="356.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">보일러</text>
+<text x="947.5" y="379.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">설비실</text>
+<text x="947.5" y="399.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">13 × 15 m</text>
+<rect x="110.0" y="675.0" width="500.0" height="350.0" rx="3" fill="#e3e6db" stroke="#493f35" stroke-width="3" />
+<text x="360.0" y="844.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">문서</text>
+<text x="360.0" y="867.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">지도 보관고</text>
+<text x="360.0" y="887.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">20 × 14 m</text>
+<rect x="610.0" y="675.0" width="500.0" height="350.0" rx="3" fill="#e8e1cf" stroke="#493f35" stroke-width="3" />
+<text x="860.0" y="844.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">와인</text>
+<text x="860.0" y="867.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">식료품 저장고</text>
+<text x="860.0" y="887.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">20 × 14 m</text>
+<rect x="121.3" y="222.5" width="45.0" height="80.0" rx="3" fill="#cfaa73" stroke="#493f35" stroke-width="3" />
+<line x1="126.3" y1="232.5" x2="161.3" y2="232.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="242.5" x2="161.3" y2="242.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="252.5" x2="161.3" y2="252.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="262.5" x2="161.3" y2="262.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="272.5" x2="161.3" y2="272.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="282.5" x2="161.3" y2="282.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="292.5" x2="161.3" y2="292.5" stroke="#91693f" stroke-width="2"/>
+<text x="143.8" y="327.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="700" fill="#302b26">보조 계단</text>
+<text x="143.8" y="347.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">B1 ↔ 1F ↔ 2F ↔ 3F</text>
+<line x1="1280" y1="220" x2="1280" y2="165" stroke="#493f35" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1280.0" y="144.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">N</text>
+<text x="110.0" y="1040.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="15" font-weight="600" fill="#756a5e">외곽 기준 40 × 34 m  ·  축척은 도면 막대 참조</text>
+<line x1="110" y1="1060" x2="360" y2="1060" stroke="#302b26" stroke-width="5"/><line x1="110" y1="1051" x2="110" y2="1069" stroke="#302b26" stroke-width="3"/><line x1="360" y1="1051" x2="360" y2="1069" stroke="#302b26" stroke-width="3"/>
+<text x="235.0" y="1084.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="600" fill="#756a5e">10 m</text>
+<text x="1150.0" y="770.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="19" font-weight="700" fill="#302b26">도면 메모</text>
+<text x="1150.0" y="808.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">서쪽 진입부의 보조 계단이 지하부터 3층까지</text>
+<text x="1150.0" y="831.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">연결됩니다.</text>
+<text x="1150.0" y="862.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">중앙 메인 계단은 지하층에 연결되지 않습니다.</text>
+<text x="1150.0" y="920.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">범례</text>
+<rect x="1150.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#e9e1ce" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">중앙홀</text>
+<rect x="1150.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#f1eadb" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">복도 / 연결 공간</text>
+<rect x="1150.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="#e5e8dd" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">서재 / 연구실</text>
+<rect x="1350.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#eee7d5" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">침실</text>
+<rect x="1350.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#cfaa73" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단</text>
+<rect x="1350.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="url(#voidhatch)" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단 개구부</text>
+<text x="1150.0" y="1075.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="500" fill="#756a5e">현재 Godot 구조 기준 · 가구 배치는 생략</text>
+</g><g transform="translate(1600,0)">
+<defs><pattern id="voidhatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="14" height="14" fill="#f6eee9"/><line x1="0" y1="0" x2="0" y2="14" stroke="#c9a9a0" stroke-width="3"/></pattern><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#91693f"/></marker></defs>
+<rect x="0.0" y="0.0" width="1600.0" height="1180.0" rx="0" fill="#f5f2eb" stroke="#f5f2eb" stroke-width="0" />
+<text x="65.0" y="68.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="39" font-weight="700" fill="#302b26">1층</text>
+<text x="66.0" y="105.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="20" font-weight="500" fill="#756a5e">현관 · 중앙홀 · 응접 · 식사 · 주방</text>
+<text x="610.0" y="145.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="600" fill="#756a5e">N  ↑  ·  후면 / 북쪽</text>
+<rect x="360.0" y="400.0" width="500.0" height="625.0" rx="7" fill="#e9e1ce" stroke="#493f35" stroke-width="3" />
+<text x="610.0" y="717.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="21" font-weight="700" fill="#302b26">개방형 중앙홀</text>
+<rect x="110.0" y="175.0" width="175.0" height="375.0" rx="3" fill="#dddcd6" stroke="#493f35" stroke-width="3" />
+<text x="197.5" y="367.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">보조 계단실</text>
+<text x="197.5" y="387.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">7 × 15 m</text>
+<rect x="210.0" y="175.0" width="150.0" height="175.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="285.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">서재</text>
+<text x="285.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">6 × 7 m</text>
+<rect x="110.0" y="350.0" width="250.0" height="175.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="235.0" y="431.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">도서</text>
+<text x="235.0" y="454.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">독서실</text>
+<text x="235.0" y="474.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 7 m</text>
+<rect x="110.0" y="525.0" width="250.0" height="250.0" rx="3" fill="#eadfd0" stroke="#493f35" stroke-width="3" />
+<text x="235.0" y="655.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">정원 응접실</text>
+<text x="235.0" y="675.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 10 m</text>
+<rect x="110.0" y="775.0" width="250.0" height="250.0" rx="3" fill="#eadfd0" stroke="#493f35" stroke-width="3" />
+<text x="235.0" y="905.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">벽난로 응접실</text>
+<text x="235.0" y="925.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 10 m</text>
+<rect x="435.0" y="175.0" width="200.0" height="225.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="535.0" y="292.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">조리 준비실</text>
+<text x="535.0" y="312.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">8 × 9 m</text>
+<rect x="635.0" y="175.0" width="150.0" height="225.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="710.0" y="292.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">식품 창고</text>
+<text x="710.0" y="312.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">6 × 9 m</text>
+<rect x="860.0" y="175.0" width="250.0" height="175.0" rx="3" fill="#eadbc5" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">조찬실</text>
+<text x="985.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 7 m</text>
+<rect x="860.0" y="350.0" width="250.0" height="100.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="394.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">차</text>
+<text x="985.0" y="417.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">배식실</text>
+<text x="985.0" y="437.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 4 m</text>
+<rect x="860.0" y="450.0" width="250.0" height="100.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="494.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">세탁</text>
+<text x="985.0" y="517.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">린넨실</text>
+<text x="985.0" y="537.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 4 m</text>
+<rect x="860.0" y="550.0" width="167.5" height="275.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="943.8" y="692.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">주방</text>
+<text x="943.8" y="712.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">6.7 × 11 m</text>
+<rect x="1027.5" y="550.0" width="82.5" height="125.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="1068.8" y="617.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="11" font-weight="650" fill="#302b26">세면실</text>
+<text x="1068.8" y="637.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">3.3 × 5 m</text>
+<rect x="1027.5" y="675.0" width="82.5" height="150.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="1068.8" y="755.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="11" font-weight="650" fill="#302b26">도구 창고</text>
+<text x="1068.8" y="775.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">3.3 × 6 m</text>
+<rect x="860.0" y="825.0" width="250.0" height="200.0" rx="3" fill="#eadbc5" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="930.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">대식당</text>
+<text x="985.0" y="950.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 8 m</text>
+<rect x="121.3" y="222.5" width="45.0" height="80.0" rx="3" fill="#cfaa73" stroke="#493f35" stroke-width="3" />
+<line x1="126.3" y1="232.5" x2="161.3" y2="232.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="242.5" x2="161.3" y2="242.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="252.5" x2="161.3" y2="252.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="262.5" x2="161.3" y2="262.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="272.5" x2="161.3" y2="272.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="282.5" x2="161.3" y2="282.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="292.5" x2="161.3" y2="292.5" stroke="#91693f" stroke-width="2"/>
+<text x="143.8" y="327.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="700" fill="#302b26">보조 계단</text>
+<text x="143.8" y="347.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">1F ↔ 2F ↔ 3F</text>
+<rect x="550.0" y="507.5" width="120.0" height="110.0" rx="4" fill="#cfaa73" stroke="#493f35" stroke-width="4" />
+<line x1="558.0" y1="517.5" x2="662.0" y2="517.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="527.5" x2="662.0" y2="527.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="537.5" x2="662.0" y2="537.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="547.5" x2="662.0" y2="547.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="557.5" x2="662.0" y2="557.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="567.5" x2="662.0" y2="567.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="577.5" x2="662.0" y2="577.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="587.5" x2="662.0" y2="587.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="597.5" x2="662.0" y2="597.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="607.5" x2="662.0" y2="607.5" stroke="#91693f" stroke-width="2"/>
+<line x1="610.0" y1="610.5" x2="610.0" y2="515.5" stroke="#63482c" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="610.0" y="1056.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="18" font-weight="700" fill="#8b653c">정문 · 현관</text>
+<line x1="610.0" y1="1012.5" x2="610.0" y2="800.0" stroke="#91693f" stroke-width="4" marker-end="url(#arrow)"/>
+<line x1="1280" y1="220" x2="1280" y2="165" stroke="#493f35" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1280.0" y="144.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">N</text>
+<text x="110.0" y="1040.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="15" font-weight="600" fill="#756a5e">외곽 기준 40 × 34 m  ·  축척은 도면 막대 참조</text>
+<line x1="110" y1="1060" x2="360" y2="1060" stroke="#302b26" stroke-width="5"/><line x1="110" y1="1051" x2="110" y2="1069" stroke="#302b26" stroke-width="3"/><line x1="360" y1="1051" x2="360" y2="1069" stroke="#302b26" stroke-width="3"/>
+<text x="235.0" y="1084.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="600" fill="#756a5e">10 m</text>
+<text x="1150.0" y="770.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="19" font-weight="700" fill="#302b26">도면 메모</text>
+<text x="1150.0" y="808.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">정문에서 중앙홀을 가로질러 후방 중앙 메인</text>
+<text x="1150.0" y="831.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">계단으로 이어집니다.</text>
+<text x="1150.0" y="862.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">중앙 계단은 1층과 2층만 연결합니다.</text>
+<text x="1150.0" y="920.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">범례</text>
+<rect x="1150.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#e9e1ce" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">중앙홀</text>
+<rect x="1150.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#f1eadb" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">복도 / 연결 공간</text>
+<rect x="1150.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="#e5e8dd" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">서재 / 연구실</text>
+<rect x="1350.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#eee7d5" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">침실</text>
+<rect x="1350.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#cfaa73" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단</text>
+<rect x="1350.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="url(#voidhatch)" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단 개구부</text>
+<text x="1150.0" y="1075.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="500" fill="#756a5e">현재 Godot 구조 기준 · 가구 배치는 생략</text>
+</g><g transform="translate(0,1180)">
+<defs><pattern id="voidhatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="14" height="14" fill="#f6eee9"/><line x1="0" y1="0" x2="0" y2="14" stroke="#c9a9a0" stroke-width="3"/></pattern><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#91693f"/></marker></defs>
+<rect x="0.0" y="0.0" width="1600.0" height="1180.0" rx="0" fill="#f5f2eb" stroke="#f5f2eb" stroke-width="0" />
+<text x="65.0" y="68.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="39" font-weight="700" fill="#302b26">2층</text>
+<text x="66.0" y="105.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="20" font-weight="500" fill="#756a5e">계단 도착부 · 독립 복도 · 침실 · 연구실</text>
+<text x="610.0" y="145.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="600" fill="#756a5e">N  ↑  ·  후면 / 북쪽</text>
+<rect x="360.0" y="400.0" width="500.0" height="625.0" rx="7" fill="#f1eadb" stroke="#493f35" stroke-width="3" />
+<text x="610.0" y="717.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="21" font-weight="700" fill="#302b26">분리된 공용 복도</text>
+<rect x="460.0" y="775.0" width="300.0" height="250.0" rx="7" fill="#eadfd0" stroke="#493f35" stroke-width="3" />
+<text x="610.0" y="905.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="21" font-weight="700" fill="#302b26">공용 라운지</text>
+<rect x="110.0" y="175.0" width="100.0" height="175.0" rx="3" fill="#dddcd6" stroke="#493f35" stroke-width="3" />
+<text x="160.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="650" fill="#302b26">보조 계단실</text>
+<text x="160.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">4 × 7 m</text>
+<rect x="210.0" y="175.0" width="150.0" height="175.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="285.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">서재</text>
+<text x="285.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">6 × 7 m</text>
+<rect x="110.0" y="350.0" width="250.0" height="175.0" rx="3" fill="#eadfd0" stroke="#493f35" stroke-width="3" />
+<text x="235.0" y="442.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">독서 라운지</text>
+<text x="235.0" y="462.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 7 m</text>
+<rect x="110.0" y="525.0" width="250.0" height="250.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="235.0" y="655.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">서쪽 침실</text>
+<text x="235.0" y="675.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 10 m</text>
+<rect x="110.0" y="775.0" width="175.0" height="250.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="197.5" y="905.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">남서쪽 침실</text>
+<text x="197.5" y="925.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">7 × 10 m</text>
+<rect x="285.0" y="775.0" width="75.0" height="125.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="322.5" y="842.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="11" font-weight="650" fill="#302b26">드레스룸</text>
+<text x="322.5" y="862.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">3 × 5 m</text>
+<rect x="285.0" y="900.0" width="75.0" height="125.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="322.5" y="967.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="11" font-weight="650" fill="#302b26">개인 욕실</text>
+<text x="322.5" y="987.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">3 × 5 m</text>
+<rect x="435.0" y="175.0" width="350.0" height="225.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="610.0" y="281.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">연구</text>
+<text x="610.0" y="304.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">수집실</text>
+<text x="610.0" y="324.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">14 × 9 m</text>
+<rect x="860.0" y="175.0" width="250.0" height="175.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">유물 복원실</text>
+<text x="985.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 7 m</text>
+<rect x="860.0" y="350.0" width="250.0" height="125.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="417.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">공용 욕실</text>
+<text x="985.0" y="437.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 5 m</text>
+<rect x="860.0" y="475.0" width="250.0" height="100.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="530.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">린넨실</text>
+<text x="985.0" y="550.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 4 m</text>
+<rect x="860.0" y="575.0" width="250.0" height="200.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="680.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">동쪽 침실</text>
+<text x="985.0" y="700.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 8 m</text>
+<rect x="860.0" y="775.0" width="250.0" height="250.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="905.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">남동쪽 침실</text>
+<text x="985.0" y="925.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 10 m</text>
+<rect x="541.2" y="507.5" width="137.5" height="117.5" rx="0" fill="url(#voidhatch)" stroke="#9a554b" stroke-width="4" />
+<text x="610.0" y="550.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="700" fill="#663b32">메인 계단</text>
+<text x="610.0" y="568.8" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="500" fill="#663b32">층간 개구부</text>
+<rect x="121.3" y="222.5" width="45.0" height="80.0" rx="3" fill="#cfaa73" stroke="#493f35" stroke-width="3" />
+<line x1="126.3" y1="232.5" x2="161.3" y2="232.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="242.5" x2="161.3" y2="242.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="252.5" x2="161.3" y2="252.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="262.5" x2="161.3" y2="262.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="272.5" x2="161.3" y2="272.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="282.5" x2="161.3" y2="282.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="292.5" x2="161.3" y2="292.5" stroke="#91693f" stroke-width="2"/>
+<text x="143.8" y="327.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="700" fill="#302b26">보조 계단</text>
+<text x="143.8" y="347.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">1F ↔ 2F ↔ 3F</text>
+<rect x="550.0" y="507.5" width="120.0" height="110.0" rx="4" fill="#cfaa73" stroke="#493f35" stroke-width="4" />
+<line x1="558.0" y1="517.5" x2="662.0" y2="517.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="527.5" x2="662.0" y2="527.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="537.5" x2="662.0" y2="537.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="547.5" x2="662.0" y2="547.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="557.5" x2="662.0" y2="557.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="567.5" x2="662.0" y2="567.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="577.5" x2="662.0" y2="577.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="587.5" x2="662.0" y2="587.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="597.5" x2="662.0" y2="597.5" stroke="#91693f" stroke-width="2"/>
+<line x1="558.0" y1="607.5" x2="662.0" y2="607.5" stroke="#91693f" stroke-width="2"/>
+<line x1="610.0" y1="610.5" x2="610.0" y2="515.5" stroke="#63482c" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="538.8" y="507.5" width="142.5" height="120.0" rx="0" fill="none" stroke="#986f4d" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="610.0" y="642.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="700" fill="#302b26">메인 계단 위치 (아래층)</text>
+<line x1="1280" y1="220" x2="1280" y2="165" stroke="#493f35" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1280.0" y="144.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">N</text>
+<text x="110.0" y="1040.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="15" font-weight="600" fill="#756a5e">외곽 기준 40 × 34 m  ·  축척은 도면 막대 참조</text>
+<line x1="110" y1="1060" x2="360" y2="1060" stroke="#302b26" stroke-width="5"/><line x1="110" y1="1051" x2="110" y2="1069" stroke="#302b26" stroke-width="3"/><line x1="360" y1="1051" x2="360" y2="1069" stroke="#302b26" stroke-width="3"/>
+<text x="235.0" y="1084.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="600" fill="#756a5e">10 m</text>
+<text x="1150.0" y="770.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="19" font-weight="700" fill="#302b26">도면 메모</text>
+<text x="1150.0" y="808.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">메인 계단 도착부에서 좌우 복도와 기존</text>
+<text x="1150.0" y="831.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">방문으로 연결됩니다.</text>
+<text x="1150.0" y="862.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">계단을 위한 5.5 × 4.7m 개구부만</text>
+<text x="1150.0" y="885.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">남기고 1층 조망 갤러리는 두지 않았습니다.</text>
+<text x="1150.0" y="920.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">범례</text>
+<rect x="1150.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#e9e1ce" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">중앙홀</text>
+<rect x="1150.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#f1eadb" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">복도 / 연결 공간</text>
+<rect x="1150.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="#e5e8dd" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">서재 / 연구실</text>
+<rect x="1350.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#eee7d5" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">침실</text>
+<rect x="1350.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#cfaa73" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단</text>
+<rect x="1350.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="url(#voidhatch)" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단 개구부</text>
+<text x="1150.0" y="1075.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="500" fill="#756a5e">현재 Godot 구조 기준 · 가구 배치는 생략</text>
+</g><g transform="translate(1600,1180)">
+<defs><pattern id="voidhatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="14" height="14" fill="#f6eee9"/><line x1="0" y1="0" x2="0" y2="14" stroke="#c9a9a0" stroke-width="3"/></pattern><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#91693f"/></marker></defs>
+<rect x="0.0" y="0.0" width="1600.0" height="1180.0" rx="0" fill="#f5f2eb" stroke="#f5f2eb" stroke-width="0" />
+<text x="65.0" y="68.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="39" font-weight="700" fill="#302b26">3층</text>
+<text x="66.0" y="105.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="20" font-weight="500" fill="#756a5e">독립 생활층 · 침실 · 기록 · 연구 · 복원</text>
+<text x="610.0" y="145.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="600" fill="#756a5e">N  ↑  ·  후면 / 북쪽</text>
+<rect x="360.0" y="400.0" width="500.0" height="625.0" rx="7" fill="#f1eadb" stroke="#493f35" stroke-width="3" />
+<text x="610.0" y="717.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="21" font-weight="700" fill="#302b26">순환 복도</text>
+<rect x="110.0" y="175.0" width="100.0" height="175.0" rx="3" fill="#dddcd6" stroke="#493f35" stroke-width="3" />
+<text x="160.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="650" fill="#302b26">보조 계단실</text>
+<text x="160.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">4 × 7 m</text>
+<rect x="210.0" y="175.0" width="150.0" height="175.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="285.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">서재</text>
+<text x="285.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">6 × 7 m</text>
+<rect x="110.0" y="350.0" width="250.0" height="175.0" rx="3" fill="#eadfd0" stroke="#493f35" stroke-width="3" />
+<text x="235.0" y="442.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">독서 라운지</text>
+<text x="235.0" y="462.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 7 m</text>
+<rect x="110.0" y="525.0" width="250.0" height="250.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="235.0" y="655.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">서쪽 침실</text>
+<text x="235.0" y="675.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 10 m</text>
+<rect x="110.0" y="775.0" width="175.0" height="250.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="197.5" y="905.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">남서쪽 침실</text>
+<text x="197.5" y="925.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">7 × 10 m</text>
+<rect x="285.0" y="775.0" width="75.0" height="125.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="322.5" y="842.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="11" font-weight="650" fill="#302b26">드레스룸</text>
+<text x="322.5" y="862.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">3 × 5 m</text>
+<rect x="285.0" y="900.0" width="75.0" height="125.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="322.5" y="967.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="11" font-weight="650" fill="#302b26">개인 욕실</text>
+<text x="322.5" y="987.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">3 × 5 m</text>
+<rect x="435.0" y="175.0" width="350.0" height="225.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="610.0" y="281.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">연구</text>
+<text x="610.0" y="304.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">수집실</text>
+<text x="610.0" y="324.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">14 × 9 m</text>
+<rect x="860.0" y="175.0" width="250.0" height="175.0" rx="3" fill="#e5e8dd" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="267.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">유물 복원실</text>
+<text x="985.0" y="287.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 7 m</text>
+<rect x="860.0" y="350.0" width="250.0" height="125.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="417.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">공용 욕실</text>
+<text x="985.0" y="437.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 5 m</text>
+<rect x="860.0" y="475.0" width="250.0" height="100.0" rx="3" fill="#e5e3db" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="530.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">린넨실</text>
+<text x="985.0" y="550.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 4 m</text>
+<rect x="860.0" y="575.0" width="250.0" height="200.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="680.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">동쪽 침실</text>
+<text x="985.0" y="700.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 8 m</text>
+<rect x="860.0" y="775.0" width="250.0" height="250.0" rx="3" fill="#eee7d5" stroke="#493f35" stroke-width="3" />
+<text x="985.0" y="905.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="16" font-weight="650" fill="#302b26">남동쪽 침실</text>
+<text x="985.0" y="925.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">10 × 10 m</text>
+<rect x="435.0" y="475.0" width="350.0" height="275.0" rx="0" fill="url(#voidhatch)" stroke="#906c56" stroke-width="3" />
+<text x="610.0" y="612.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#694d3b">중앙 개방부</text>
+<text x="610.0" y="637.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="500" fill="#694d3b">상부 갤러리</text>
+<rect x="121.3" y="222.5" width="45.0" height="80.0" rx="3" fill="#cfaa73" stroke="#493f35" stroke-width="3" />
+<line x1="126.3" y1="232.5" x2="161.3" y2="232.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="242.5" x2="161.3" y2="242.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="252.5" x2="161.3" y2="252.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="262.5" x2="161.3" y2="262.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="272.5" x2="161.3" y2="272.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="282.5" x2="161.3" y2="282.5" stroke="#91693f" stroke-width="2"/>
+<line x1="126.3" y1="292.5" x2="161.3" y2="292.5" stroke="#91693f" stroke-width="2"/>
+<text x="143.8" y="327.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="700" fill="#302b26">보조 계단</text>
+<text x="143.8" y="347.5" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="12" font-weight="500" fill="#756a5e">2F ↔ 3F</text>
+<line x1="1280" y1="220" x2="1280" y2="165" stroke="#493f35" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1280.0" y="144.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">N</text>
+<text x="110.0" y="1040.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="15" font-weight="600" fill="#756a5e">외곽 기준 40 × 34 m  ·  축척은 도면 막대 참조</text>
+<line x1="110" y1="1060" x2="360" y2="1060" stroke="#302b26" stroke-width="5"/><line x1="110" y1="1051" x2="110" y2="1069" stroke="#302b26" stroke-width="3"/><line x1="360" y1="1051" x2="360" y2="1069" stroke="#302b26" stroke-width="3"/>
+<text x="235.0" y="1084.0" text-anchor="middle" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="600" fill="#756a5e">10 m</text>
+<text x="1150.0" y="770.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="19" font-weight="700" fill="#302b26">도면 메모</text>
+<text x="1150.0" y="808.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">서쪽 보조 계단으로 지하층·1층·2층과</text>
+<text x="1150.0" y="831.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">연결됩니다.</text>
+<text x="1150.0" y="862.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">중앙부 기존 아트리움과 상부 개방부를</text>
+<text x="1150.0" y="885.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="14" font-weight="500" fill="#302b26">유지합니다.</text>
+<text x="1150.0" y="920.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="17" font-weight="700" fill="#302b26">범례</text>
+<rect x="1150.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#e9e1ce" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">중앙홀</text>
+<rect x="1150.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#f1eadb" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">복도 / 연결 공간</text>
+<rect x="1150.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="#e5e8dd" stroke="#493f35" stroke-width="1.5" />
+<text x="1181.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">서재 / 연구실</text>
+<rect x="1350.0" y="939.0" width="22.0" height="22.0" rx="2" fill="#eee7d5" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="956.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">침실</text>
+<rect x="1350.0" y="973.0" width="22.0" height="22.0" rx="2" fill="#cfaa73" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="990.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단</text>
+<rect x="1350.0" y="1007.0" width="22.0" height="22.0" rx="2" fill="url(#voidhatch)" stroke="#493f35" stroke-width="1.5" />
+<text x="1381.0" y="1024.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="550" fill="#302b26">계단 개구부</text>
+<text x="1150.0" y="1075.0" text-anchor="start" font-family="Malgun Gothic, Noto Sans CJK KR, Arial, sans-serif" font-size="13" font-weight="500" fill="#756a5e">현재 Godot 구조 기준 · 가구 배치는 생략</text>
+</g></svg>

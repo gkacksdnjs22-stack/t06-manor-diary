@@ -18,6 +18,11 @@ export async function POST(req:Request){
   const body=await req.text();if(body.length>30000)throw new InputError('입력이 너무 깁니다.');let p:any;try{p=JSON.parse(body)}catch{throw new InputError('입력 형식을 확인해 주세요.')}
   const db=rawDb(),now=new Date().toISOString(),newId=()=>crypto.randomUUID();
   const find=async(table:string,id:any)=>{text(id,'ID',80);const row=await db.prepare(`SELECT * FROM ${table} WHERE id=?`).bind(id).first<any>();if(!row)throw new InputError('기록을 찾을 수 없습니다.',404);return row};
+  if(p.action==='deletePlan'||p.action==='restorePlan'){
+   await find('plans',p.id);
+   await db.prepare('UPDATE plans SET deleted_at=?,version=version+1 WHERE id=?').bind(p.action==='deletePlan'?now:null,p.id).run();
+   return json({id:p.id});
+  }
   if(p.action==='createPlan'||p.action==='updatePlan'){
    const title=text(p.title,'제목',200),start=date(p.startDate,'시작일'),end=date(p.endDate,'종료일'),pr=priority(p.priority),criteria=text(p.successCriteria,'성공 기준'),estimate=minutes(p.estimatedMinutes),isKnown=known(p.estimatedKnown??1);if(end<start)throw new InputError('종료일은 시작일 이후여야 합니다.');
    if(p.action==='createPlan'){
@@ -26,8 +31,10 @@ export async function POST(req:Request){
     await db.batch([db.prepare('INSERT INTO plans (id,title,start_date,end_date,priority,success_criteria,estimated_minutes,estimated_known,improvement,source_review_id,created_at,version) VALUES (?,?,?,?,?,?,?,?,?,?,?,1)').bind(id,title,start,end,pr,criteria,estimate,isKnown,improvement,source,now),db.prepare('INSERT INTO plan_versions (id,plan_id,version,snapshot,created_at) VALUES (?,?,1,?,?)').bind(newId(),id,JSON.stringify(snapshot),now)]);return json({id},201);
    }
    const old=await find('plans',p.id),v=version(p.version);if(old.version!==v)throw new InputError('다른 변경이 먼저 저장됐습니다. 새로고침 후 다시 수정해 주세요.',409);
-   const snapshot={...camel(old),title,startDate:start,endDate:end,priority:pr,successCriteria:criteria,estimatedMinutes:estimate,estimatedKnown:isKnown,version:v+1};
-   const result=await db.batch([db.prepare('INSERT INTO plan_versions (id,plan_id,version,snapshot,created_at) SELECT ?,id,version+1,?,? FROM plans WHERE id=? AND version=?').bind(newId(),JSON.stringify(snapshot),now,p.id,v),db.prepare('UPDATE plans SET title=?,start_date=?,end_date=?,priority=?,success_criteria=?,estimated_minutes=?,estimated_known=?,version=version+1 WHERE id=? AND version=?').bind(title,start,end,pr,criteria,estimate,isKnown,p.id,v)]);
+   let improvement=old.improvement,source=old.source_review_id;
+   if(p.sourceReviewId){const review=await find('reviews',p.sourceReviewId);source=review.id;improvement=review.improvement;}
+   const snapshot={...camel(old),title,startDate:start,endDate:end,priority:pr,successCriteria:criteria,estimatedMinutes:estimate,estimatedKnown:isKnown,improvement,sourceReviewId:source,version:v+1};
+   const result=await db.batch([db.prepare('INSERT INTO plan_versions (id,plan_id,version,snapshot,created_at) SELECT ?,id,version+1,?,? FROM plans WHERE id=? AND version=?').bind(newId(),JSON.stringify(snapshot),now,p.id,v),db.prepare('UPDATE plans SET title=?,start_date=?,end_date=?,priority=?,success_criteria=?,estimated_minutes=?,estimated_known=?,improvement=?,source_review_id=?,version=version+1 WHERE id=? AND version=?').bind(title,start,end,pr,criteria,estimate,isKnown,improvement,source,p.id,v)]);
    if(!result[1].meta.changes)throw new InputError('동시에 변경되었습니다. 다시 불러와 주세요.',409);return json({id:p.id});
   }
   if(p.action==='createTask'||p.action==='updateTask'){
@@ -45,12 +52,28 @@ export async function POST(req:Request){
    const results=await db.batch([db.prepare("INSERT OR IGNORE INTO completions (id,task_id,cycle,request_key,created_at) SELECT ?,id,completion_cycle,?,? FROM tasks WHERE id=? AND version=? AND status='todo' AND deleted_at IS NULL").bind(newId(),key,now,p.id,v),db.prepare("UPDATE tasks SET status='done',version=version+1 WHERE id=? AND version=? AND status='todo' AND deleted_at IS NULL AND EXISTS (SELECT 1 FROM completions WHERE task_id=tasks.id AND cycle=tasks.completion_cycle)").bind(p.id,v)]);
    if(!results[1].meta.changes){const fresh=await find('tasks',p.id);if(fresh.status!=='done')throw new InputError('다른 변경이 먼저 저장됐습니다. 새로고침 후 다시 시도해 주세요.',409)}return json({id:p.id});
   }
-  if(p.action==='createExecution'){
+  if(p.action==='createDesignRecord'){
+   const task=await find('tasks',p.taskId);if(task.deleted_at)throw new InputError('삭제한 할 일입니다.',409);
+   const title=text(p.title,'작업 제목',200),start=text(p.startAt,'시작 시각',40),assets=text(p.assets,'작업 자료',2000),schedule=text(p.schedule,'작업 일정',300),key=text(p.requestKey,'요청 키',100),blocked=text(p.blockedReason??'','막힌 이유',2000,true);
+   if(!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:00\+09:00$/.test(start)||Number.isNaN(Date.parse(start)))throw new InputError('시작 시각을 확인해 주세요.');
+   if(assets.split(',').some(a=>!/^\/design\/[a-z0-9-]+\.(png|svg)$/.test(a)))throw new InputError('작업 자료를 확인해 주세요.');
+   const old=await db.prepare('SELECT * FROM executions WHERE request_key=?').bind(key).first<any>();if(old)return json({id:old.id,duplicate:true});
+   const id=newId(),stamp=new Date(start).toISOString();await db.prepare('INSERT INTO executions (id,task_id,start_at,end_at,actual_minutes,blocked_reason,request_key,created_at,title,ongoing,actual_known,assets,schedule) VALUES (?,?,?,?,0,?,?,?,?,1,0,?,?)').bind(id,p.taskId,stamp,stamp,blocked,key,now,title,assets,schedule).run();return json({id},201);
+  }
+  if(p.action==='deleteExecution'){
+   await find('executions',p.id);await db.prepare('DELETE FROM executions WHERE id=?').bind(p.id).run();return json({id:p.id});
+  }
+  if(p.action==='createExecution'||p.action==='updateExecution'){
    const task=await find('tasks',p.taskId);if(task.deleted_at)throw new InputError('삭제한 할 일입니다.',409);const key=text(p.requestKey,'요청 키',100),blocked=text(p.blockedReason??'','막힌 이유',2000,true);
    for(const x of [p.startAt,p.endAt])if(typeof x!=='string'||!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:00\+09:00$/.test(x)||Number.isNaN(Date.parse(x)))throw new InputError('서울 기준 시작·종료 시각을 확인해 주세요.');
    const start=new Date(p.startAt).toISOString(),end=new Date(p.endAt).toISOString(),actual=(Date.parse(end)-Date.parse(start))/60000;if(actual<0||actual>1000000)throw new InputError('종료 시각은 시작 시각 이후여야 합니다.');
+   if(p.action==='updateExecution'){const existing=await find('executions',p.id);if(existing.actual_known===0){const title=text(p.title,'작업 제목',200),schedule=text(p.schedule,'일정',300);await db.prepare('UPDATE executions SET task_id=?,title=?,schedule=?,blocked_reason=? WHERE id=?').bind(p.taskId,title,schedule,blocked,p.id).run();return json({id:p.id});}await db.prepare('UPDATE executions SET task_id=?,start_at=?,end_at=?,actual_minutes=?,blocked_reason=? WHERE id=?').bind(p.taskId,start,end,actual,blocked,p.id).run();return json({id:p.id});}
    const old=await db.prepare('SELECT * FROM executions WHERE request_key=?').bind(key).first<any>();if(old){if(old.task_id!==p.taskId||old.start_at!==start||old.end_at!==end||old.blocked_reason!==blocked)throw new InputError('요청 키가 다른 기록에 사용됐습니다.',409);return json({id:old.id,duplicate:true})}
    const id=newId();await db.prepare('INSERT OR IGNORE INTO executions (id,task_id,start_at,end_at,actual_minutes,blocked_reason,request_key,created_at) VALUES (?,?,?,?,?,?,?,?)').bind(id,p.taskId,start,end,actual,blocked,key,now).run();const row=await db.prepare('SELECT id FROM executions WHERE request_key=?').bind(key).first<any>();return json({id:row.id},201);
+  }
+  if(p.action==='updateReview'){
+   await find('reviews',p.id);const improvement=text(p.improvement,'개선점');
+   await db.prepare('UPDATE reviews SET improvement=? WHERE id=?').bind(improvement,p.id).run();return json({id:p.id});
   }
   if(p.action==='createReview'){
    await find('plans',p.planId);const start=date(p.startDate,'시작일'),end=date(p.endDate,'종료일'),improvement=text(p.improvement,'개선점');if(end<start)throw new InputError('종료일은 시작일 이후여야 합니다.');const id=newId();await db.prepare('INSERT INTO reviews (id,plan_id,start_date,end_date,improvement,created_at) VALUES (?,?,?,?,?,?)').bind(id,p.planId,start,end,improvement,now).run();return json({id},201);

@@ -3,19 +3,159 @@
   "timeZone": "Asia/Seoul",
   "timeUnit": "minutes",
   "tables": {
-    "plans": {"primaryKey":"id","columns":["id","title","start_date","end_date","priority","success_criteria","estimated_minutes","estimated_known","improvement","source_review_id","created_at","version"]},
-    "plan_versions": {"primaryKey":"id","foreignKeys":{"plan_id":"plans.id"},"unique":[["plan_id","version"]],"columns":["id","plan_id","version","snapshot","created_at"]},
-    "tasks": {"primaryKey":"id","foreignKeys":{"plan_id":"plans.id"},"columns":["id","plan_id","title","due_date","priority","tags","estimated_minutes","estimated_known","status","completion_cycle","deleted_at","created_at","version"]},
-    "executions": {"primaryKey":"id","foreignKeys":{"task_id":"tasks.id"},"unique":[["request_key"]],"columns":["id","task_id","start_at","end_at","actual_minutes","blocked_reason","request_key","created_at"]},
-    "completions": {"primaryKey":"id","foreignKeys":{"task_id":"tasks.id"},"unique":[["task_id","cycle"],["request_key"]],"columns":["id","task_id","cycle","request_key","created_at"]},
-    "reviews": {"primaryKey":"id","foreignKeys":{"plan_id":"plans.id"},"columns":["id","plan_id","start_date","end_date","improvement","created_at"]}
+    "plans": {
+      "primaryKey": "id",
+      "columns": [
+        "id",
+        "title",
+        "start_date",
+        "end_date",
+        "priority",
+        "success_criteria",
+        "estimated_minutes",
+        "estimated_known",
+        "improvement",
+        "source_review_id",
+        "created_at",
+        "version"
+      ]
+    },
+    "plan_versions": {
+      "primaryKey": "id",
+      "foreignKeys": {
+        "plan_id": "plans.id"
+      },
+      "unique": [
+        [
+          "plan_id",
+          "version"
+        ]
+      ],
+      "columns": [
+        "id",
+        "plan_id",
+        "version",
+        "snapshot",
+        "created_at"
+      ]
+    },
+    "tasks": {
+      "primaryKey": "id",
+      "foreignKeys": {
+        "plan_id": "plans.id"
+      },
+      "columns": [
+        "id",
+        "plan_id",
+        "title",
+        "due_date",
+        "priority",
+        "tags",
+        "estimated_minutes",
+        "estimated_known",
+        "status",
+        "completion_cycle",
+        "deleted_at",
+        "created_at",
+        "version"
+      ]
+    },
+    "executions": {
+      "primaryKey": "id",
+      "foreignKeys": {
+        "task_id": "tasks.id"
+      },
+      "unique": [
+        [
+          "request_key"
+        ]
+      ],
+      "columns": [
+        "id",
+        "task_id",
+        "start_at",
+        "end_at",
+        "actual_minutes",
+        "blocked_reason",
+        "request_key",
+        "created_at",
+        "title",
+        "ongoing",
+        "actual_known",
+        "assets",
+        "schedule"
+      ]
+    },
+    "completions": {
+      "primaryKey": "id",
+      "foreignKeys": {
+        "task_id": "tasks.id"
+      },
+      "unique": [
+        [
+          "task_id",
+          "cycle"
+        ],
+        [
+          "request_key"
+        ]
+      ],
+      "columns": [
+        "id",
+        "task_id",
+        "cycle",
+        "request_key",
+        "created_at"
+      ]
+    },
+    "reviews": {
+      "primaryKey": "id",
+      "foreignKeys": {
+        "plan_id": "plans.id"
+      },
+      "columns": [
+        "id",
+        "plan_id",
+        "start_date",
+        "end_date",
+        "improvement",
+        "created_at"
+      ]
+    }
   },
-  "relations": ["plans 1:N tasks","plans 1:N plan_versions","tasks 1:N executions","tasks 1:N completions","plans 1:N reviews","plans.source_review_id -> reviews.id (application-validated)"],
-  "dateRules": {"dateOnly":"YYYY-MM-DD; inclusive endpoints; no UTC date conversion","timestamps":"ISO 8601 UTC persisted, Asia/Seoul displayed; inputs have explicit +09:00","actualMinutes":"(end_at - start_at) / 60000, integer minute precision","today":"calendar date in Asia/Seoul computed on server","reviewPeriod":"tasks.due_date in inclusive start/end dates; all execution records of those tasks","delayed":"undeleted, not done, due_date < Seoul today"},
-  "aggregation": {"planned":"undeleted tasks in selected plan and due-date range","completed":"planned with status done","blocked":"distinct planned tasks with one or more nonblank execution blocked_reason","estimated":"sum of known estimated_minutes in planned tasks","unknown":"estimated_known=0 means unset; numeric zero is only a placeholder and is not a user's estimate; display 미정 and disclose omitted count","actual":"sum of all executions for planned tasks","difference":"actual minus known estimated; provisional if unknown estimates exist","empty":0},
-  "idempotency": {"completion":"unique task_id + completion_cycle, database batch; reopening advances cycle; old request key replay cannot recomplete","execution":"unique request_key and payload match for retries"},
-  "history":"original plan version stored at creation; every successful edit appends a new immutable snapshot with same plan ID; optimistic version check",
-  "deletion":"tasks soft deleted; excluded from statistics, original records retained in export",
-  "export":"one JSON file, all six tables including deleted tasks, timestamps, units and timezone",
-  "access":"anonymous read/write, no login; first-screen public notice required"
+  "relations": [
+    "plans 1:N tasks",
+    "plans 1:N plan_versions",
+    "tasks 1:N executions",
+    "tasks 1:N completions",
+    "plans 1:N reviews",
+    "plans.source_review_id -> reviews.id (application-validated)"
+  ],
+  "dateRules": {
+    "dateOnly": "YYYY-MM-DD; inclusive endpoints; no UTC date conversion",
+    "timestamps": "ISO 8601 UTC persisted, Asia/Seoul displayed; inputs have explicit +09:00",
+    "actualMinutes": "(end_at - start_at) / 60000, integer minute precision",
+    "today": "calendar date in Asia/Seoul computed on server",
+    "reviewPeriod": "tasks.due_date in inclusive start/end dates; all execution records of those tasks",
+    "delayed": "undeleted, not done, due_date < Seoul today",
+    "ongoing": "ongoing=1 displays 진행 중; when actual_known=0 end_at=start_at is a storage placeholder, not an end time"
+  },
+  "aggregation": {
+    "planned": "undeleted tasks in selected plan and due-date range",
+    "completed": "planned with status done",
+    "blocked": "distinct planned tasks with one or more nonblank execution blocked_reason",
+    "estimated": "sum of known estimated_minutes in planned tasks",
+    "unknown": "estimated_known=0 means unset; numeric zero is only a placeholder and is not a user's estimate; display 미정 and disclose omitted count",
+    "actual": "sum actual_minutes only where actual_known=1; design stage durations unknown and excluded; shared period is not counted per stage",
+    "difference": "actual minus known estimated; provisional if unknown estimates exist",
+    "empty": 0
+  },
+  "idempotency": {
+    "completion": "unique task_id + completion_cycle, database batch; reopening advances cycle; old request key replay cannot recomplete",
+    "execution": "unique request_key and payload match for retries"
+  },
+  "history": "original plan version stored at creation; every successful edit appends a new immutable snapshot with same plan ID; optimistic version check",
+  "deletion": "tasks soft deleted; excluded from statistics, original records retained in export",
+  "export": "one JSON file, all six tables including deleted tasks, timestamps, units and timezone",
+  "access": "anonymous read/write, no login; first-screen public notice required"
 }
